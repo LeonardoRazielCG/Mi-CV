@@ -322,3 +322,20 @@ footer {
     color: #475569;
     font-size: 0.9rem;
 }
+
+/* ----- EFECTO DE ELEVACIÓN PARA PROYECTOS ----- */
+.project-card {
+    padding: 20px 24px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    background: transparent;
+    border: 1px solid #e2e8f0;
+    transition: transform 0.4s cubic-bezier(0.34, 1.56, 0.64, 1), box-shadow 0.4s ease, background-color 0.3s ease;
+}
+
+    .project-card:hover {
+        transform: translateY(-6px);
+        background-color: #f8fafc;
+        border-color: var(--accent-color);
+        box-shadow: 0 12px 20px -8px rgba(15, 23, 42, 0.08), 0 4px 12px -4px rgba(15, 23, 42, 0.03);
+    }
