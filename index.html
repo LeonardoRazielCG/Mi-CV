@@ -359,6 +359,7 @@
             <button class="folder-tab" onclick="switchFolderTab(event, 'experiencia')">💼 Experiencia</button>
             <button class="folder-tab" onclick="switchFolderTab(event, 'skills')">🛠️ Habilidades</button>
             <button class="folder-tab" onclick="switchFolderTab(event, 'educacion')">🎓 Educación</button>
+            <button class="folder-tab" onclick="switchFolderTab(event, 'proyectos')">🚀 Proyectos</button>
         </div>
 
         <!-- CUERPO DE LA CARPETA -->
@@ -419,6 +420,29 @@
                 </div>
             </div>
 
+            <!-- TAB: SECCIÓN DE PROYECTOS -->
+            <div id="proyectos" class="tab-content">
+                <h2>Proyectos Destacados</h2>
+
+                <div class="project-card">
+                    <div class="job-title">ControlGastosApp — Aplicación Móvil de Finanzas</div>
+                    <div class="company-date">.NET MAUI | C# | SQLite</div>
+                    <p style="color: #475569;">Desarrollo de aplicación móvil multiplataforma para la gestión y control de finanzas personales, ingresos y egresos. Implementación de arquitectura orientada a objetos, interfaz intuitiva y persistencia de datos local optimizada mediante SQLite.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="job-title">Sistema de Gestión de Tickets de TI</div>
+                    <div class="company-date">ASP.NET Core MVC | C# | Entity Framework | SQL Server</div>
+                    <p style="color: #475569;">Aplicación web para la administración y seguimiento centralizado de solicitudes e incidencias de soporte técnico. Incluye control de estados de tickets, asignación de roles de usuario y gestión relacional de datos.</p>
+                </div>
+
+                <div class="project-card">
+                    <div class="job-title">Despliegue de Infraestructura Web en la Nube</div>
+                    <div class="company-date">AWS (EC2, VPC, Security Groups) | Ubuntu Linux | Apache</div>
+                    <p style="color: #475569;">Aprovisionamiento e instanciación de servidores virtuales Ubuntu sobre Amazon EC2. Configuración de reglas de firewall (Security Groups), gestión de accesos SSH mediante llaves (`Key Pair`), hardening de permisos en Linux y hospedaje de plataformas web/LMS (WordPress / Moodle).</p>
+                </div>
+            </div>
+
             <!-- TAB: SKILLS -->
             <div id="skills" class="tab-content">
                 <h2>Habilidades y Competencias</h2>
@@ -453,22 +477,22 @@
 
             <!-- TAB: EDUCACIÓN -->
             <div id="educacion" class="tab-content">
-    <h2>Educación e Idiomas</h2>
-    
-    <div class="education-card">
-        <h3>Ingeniería en Informática</h3>
-        <p class="education-specialty">Especialidad en Ciberseguridad</p>
-        <p>Instituto Tecnológico de San Luis Potosí | 2020 - 2025</p>
-    </div>
-    
-    <hr class="folder-divider">
-    
-    <div class="education-card">
-        <h3>Idiomas</h3>
-        <p class="job-title" style="font-size: 1.1rem;">Inglés - Nivel A2</p>
-        <p style="color: var(--text-light);">Conversacional básico y lectura técnica funcional para TI.</p>
-    </div>
-</div>
+                <h2>Educación e Idiomas</h2>
+
+                <div class="education-card">
+                    <h3>Ingeniería en Informática</h3>
+                    <p class="education-specialty">Especialidad en Ciberseguridad</p>
+                    <p>Instituto Tecnológico de San Luis Potosí | 2020 - 2025</p>
+                </div>
+
+                <hr class="folder-divider">
+
+                <div class="education-card">
+                    <h3>Idiomas</h3>
+                    <p class="job-title" style="font-size: 1.1rem;">Inglés - Nivel A2</p>
+                    <p style="color: var(--text-light);">Conversacional básico y lectura técnica funcional para TI.</p>
+                </div>
+            </div>
 
         </div>
     </div>
